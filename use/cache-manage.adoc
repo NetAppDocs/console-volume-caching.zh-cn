@@ -30,7 +30,7 @@ summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使�
 对于每个缓存，您可以看到原始卷、工作环境、缓存卷等。
 
 .步骤
-. 从NetApp控制台左侧导航中，选择 *Mobility* > *Volume caching*。
+. 从NetApp Console左侧导航中，选择 *Mobility* > *Volume caching*。
 +
 您可以查看在目标系统上创建的缓存卷列表。缓存列表显示缓存详细信息。
 
@@ -47,7 +47,7 @@ summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使�
 您可以更改缓存的名称、卷大小和导出策略。
 
 .步骤
-. 从NetApp控制台左侧导航中，选择 *Mobility* > *Volume caching*。
+. 从NetApp Console左侧导航中，选择 *Mobility* > *Volume caching*。
 . 选择一行并选择右侧的*操作...*选项。
 . 选择*查看和编辑详细信息*。
 . 在基本配置选项卡中，可选择更改缓存名称和缓存卷大小。
@@ -73,7 +73,7 @@ summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使�
 TIP: 您可以将现有的导出策略分配给缓存。您不能更改出口政策规则。如果需要更改导出策略，可以使用NetApp System Manager。
 
 .步骤
-. 从NetApp控制台左侧导航中，选择 *Mobility* > *Volume caching*。
+. 从NetApp Console左侧导航中，选择 *Mobility* > *Volume caching*。
 . 选择一行并选择右侧的*操作...*选项。
 . 选择*更改出口政策*。
 . 选择要分配给缓存的导出策略。
@@ -87,7 +87,7 @@ TIP: 您可以将现有的导出策略分配给缓存。您不能更改出口政
 您可以根据源卷的百分比更改缓存卷的大小。
 
 .步骤
-. 从NetApp控制台左侧导航中，选择 *Mobility* > *Volume caching*。
+. 从NetApp Console左侧导航中，选择 *Mobility* > *Volume caching*。
 . 选择一行并选择右侧的*操作...*选项。
 . 选择*调整大小*。
 . 输入原始卷大小的新百分比。
@@ -104,7 +104,7 @@ TIP: 您可以将现有的导出策略分配给缓存。您不能更改出口政
 如果您不再需要缓存，您可以将其删除。这将删除卷缓存关系并删除目标卷缓存。
 
 .步骤
-. 从NetApp控制台左侧导航中，选择 *Mobility* > *Volume caching*。
+. 从NetApp Console左侧导航中，选择 *Mobility* > *Volume caching*。
 . 选择一行并选择右侧的*操作...*选项。
 . 选择*删除*。
 . 勾选此框。

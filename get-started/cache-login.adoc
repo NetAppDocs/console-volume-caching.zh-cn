@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/cache-login.html 
 keywords: bluexp login, volume caching log in 
-summary: 通过访问NetApp控制台中的服务开始使用卷缓存。 
+summary: 通过访问NetApp Console中的服务开始使用卷缓存。 
 ---
 = 访问卷缓存
 :hardbreaks:
@@ -12,14 +12,14 @@ summary: 通过访问NetApp控制台中的服务开始使用卷缓存。
 
 
 [role="lead"]
-您可以使用NetApp控制台访问卷缓存选项。
+您可以使用NetApp Console访问卷缓存选项。
 
-要登录NetApp控制台，您可以使用NetApp支持站点凭据。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["了解有关登录的更多信息"^] 。
+要登录NetApp Console，您可以使用NetApp支持站点凭据。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["了解有关登录的更多信息"^] 。
 
 .步骤
 . 打开 Web 浏览器并转到 https://console.netapp.com/["NetApp控制台"^]。
 +
-出现NetApp控制台登录页面。
+出现NetApp Console登录页面。
 
 . 登录控制台。
 . 从控制台左侧导航中，选择*移动性*>*卷缓存*。

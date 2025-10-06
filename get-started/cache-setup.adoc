@@ -21,11 +21,11 @@ summary: 要使用卷缓存，请执行几个步骤进行设置。
 
 
 
-== 在NetApp控制台中创建控制台代理
+== 在NetApp Console中创建控制台代理
 
-下一步是在NetApp控制台中创建控制台代理。
+下一步是在NetApp Console中创建控制台代理。
 
-要在使用卷缓存之前创建控制台代理，请参阅NetApp控制台文档，其中介绍了 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["如何创建控制台代理"^]。
+要在使用卷缓存之前创建控制台代理，请参阅NetApp Console文档，其中介绍了 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["如何创建控制台代理"^]。
 
 
 
