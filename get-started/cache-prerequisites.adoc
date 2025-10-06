@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-prerequisites.html 
+keywords: what are volume caching requirements, volume caching prerequisites 
+summary: 通过验证对您的环境、网络访问、登录和 Web 浏览器的支持来开始使用卷缓存。 
+---
+= 卷缓存先决条件
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+首先验证您的操作环境、登录、网络访问和 Web 浏览器是否已准备就绪。
+
+要使用卷缓存，您应该确保您的环境满足所有要求。
+
+* ONTAP 9.8 及更高版本
++
+** 集群管理员ONTAP权限
+** 集群上的集群间 LIF
+
+
+* 在NetApp控制台中：
++
+** 需要在NetApp控制台中设置控制台代理。所有源集群和目标集群必须位于同一个控制台代理上。请参阅 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXP快速入门"^]和 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解控制台代理"^]。
+** 应设置工作环境。
+** 应将集群添加到目标工作环境中，并使其处于开启或降级状态。
+** 标准NetApp控制台要求。参考 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["NetApp控制台要求"^]。
+
+
+

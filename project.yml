@@ -1,0 +1,22 @@
+---
+settings:
+  name: Volume caching
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+sidebar:
+  entries:
+  - title: 卷缓存文档
+    url: "/index.html"
+  - section: release-notes
+  - section: get-started
+  - section: use
+  - section: support
+  - title: 法律声明
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

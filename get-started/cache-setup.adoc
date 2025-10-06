@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-setup.html 
+keywords: bluexp, volume caching, 
+summary: 要使用卷缓存，请执行几个步骤进行设置。 
+---
+= 设置卷缓存
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要使用卷缓存，请执行几个步骤进行设置。
+
+* 审查link:../get-started/cache-prerequisites.html["前提条件"]以确保您的环境已准备就绪。
+* 创建控制台代理。
+* 创建可以支持卷缓存的系统。
+
+
+
+
+== 在NetApp控制台中创建控制台代理
+
+下一步是在NetApp控制台中创建控制台代理。
+
+要在使用卷缓存之前创建控制台代理，请参阅NetApp控制台文档，其中介绍了 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["如何创建控制台代理"^]。
+
+
+
+== 创建系统
+
+如果您还没有这样做，您需要为源和目标创建系统。
+
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["创建Amazon FSx for ONTAP系统"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中启动Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在 GCP 中启动Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["添加现有的Cloud Volumes ONTAP系统"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["发现ONTAP集群"^]
+

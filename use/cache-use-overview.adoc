@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: use/cache-use-overview.html 
+keywords: volume caching, volume caching 
+summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。 
+---
+= 使用卷缓存概述
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用卷缓存，您可以实现以下目标：
+
+* link:../use/cache-create.html["创建缓存"] 。
+* link:../use/cache-manage.html#view-cache-details["查看缓存详细信息"] 。
+* link:../use/cache-manage.html#assign-a-different-cache-export-policy["更改导出策略并调整缓存大小"] 。
+* link:../use/cache-manage.html#delete-a-volume-cache["删除缓存"] 。
+* link:../use/monitor-jobs.html["监控卷缓存操作"]在NetApp控制台审核页面上。
+

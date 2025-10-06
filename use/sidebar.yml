@@ -1,0 +1,12 @@
+---
+section: use
+title: 使用卷缓存
+entries:
+- title: 使用卷缓存概述
+  url: "/use/cache-use-overview.html"
+- title: 创建缓存
+  url: "/use/cache-create.html"
+- title: 管理缓存
+  url: "/use/cache-manage.html"
+- title: 监控卷缓存作业
+  url: "/use/monitor-jobs.html"
