@@ -17,6 +17,5 @@ summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使�
 * link:../use/cache-create.html["创建缓存"] 。
 * link:../use/cache-manage.html#view-cache-details["查看缓存详细信息"] 。
 * link:../use/cache-manage.html#assign-a-different-cache-export-policy["更改导出策略并调整缓存大小"] 。
-* link:../use/cache-manage.html#delete-a-volume-cache["删除缓存"] 。
 * link:../use/monitor-jobs.html["监控卷缓存操作"]在NetApp Console审核页面上。
 
