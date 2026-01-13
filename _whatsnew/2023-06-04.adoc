@@ -1,13 +1,13 @@
-= BlueXP volume caching
+= BlueXP卷缓存
 :allow-uri-read: 
 
 
 
 
-=== BlueXP volume caching
+=== BlueXP卷缓存
 
-BlueXP volume caching是ONTAP 9 软件的一项功能，它是一种远程缓存功能，可简化文件分发，通过将资源靠近用户和计算资源的位置来减少 WAN 延迟，并降低 WAN 带宽成本。卷缓存在远程位置提供持久的、可写的卷。您可以使用BlueXP volume caching来加快数据访问速度或卸载访问量大的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。
+BlueXP卷缓存是ONTAP 9 软件的一项功能，它是一种远程缓存功能，可以简化文件分发，通过将资源带到更靠近用户和计算资源的位置来减少 WAN 延迟，并降低 WAN 带宽成本。卷缓存可在远程位置提供一个持久的、可写的卷。您可以使用BlueXP卷缓存来加快数据访问速度或将流量从访问量大的卷中卸载。缓存卷非常适合读取密集型工作负载，尤其适用于客户端需要反复访问相同数据的情况。
 
-借助BlueXP volume caching，您可以获得云的缓存功能，特别是针对Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP和本地工作环境。
+借助BlueXP卷缓存，您可以为云（特别是Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP）和本地工作环境提供缓存功能。
 
 link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["了解有关卷缓存的更多信息"] 。

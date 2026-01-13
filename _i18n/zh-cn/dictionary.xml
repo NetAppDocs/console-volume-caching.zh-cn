@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="5f63db6bf0512dc0612ee852c1faf373" category="doc">BlueXP volume caching</block>
-  <block id="b83ba84e8b66440b0a36bc88ba58ce87" category="paragraph">BlueXP volume caching是ONTAP 9 软件的一项功能，它是一种远程缓存功能，可简化文件分发，通过将资源靠近用户和计算资源的位置来减少 WAN 延迟，并降低 WAN 带宽成本。卷缓存在远程位置提供持久的、可写的卷。您可以使用BlueXP volume caching来加快数据访问速度或卸载访问量大的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。</block>
-  <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">借助BlueXP volume caching，您可以获得云的缓存功能，特别是针对Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP和本地工作环境。</block>
   <block id="2012f97762e54c6c0012de439f8eb421" category="inline-link-macro">了解有关卷缓存的更多信息</block>
   <block id="32e43821995e99fb72cdac5dd21f43b4" category="paragraph"><block ref="d441c17803a6d3d32848ba89d4709eae" category="inline-link-macro-rx"></block> 。</block>
-  <block id="9b5a1e6c05cb5a9a8a4d5f1e2605ce55" category="doc">BlueXP volume caching现在是卷缓存</block>
-  <block id="f8e8412fccd7f025d572fec3a13f08fe" category="paragraph">BlueXP volume caching已重命名为卷缓存。</block>
   <block id="1404848cfe6595d928cbdff8fae23869" category="paragraph">您可以通过选择“*Mobility*”&gt;“*Volume caching*”从NetApp Console左侧导航栏访问它。</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP现在是NetApp Console</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console发行说明</block>
   <block id="07a0717927710f1dcb5683cb20238dcb" category="paragraph">有关更改的详细信息，请参阅<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速找到问题的答案，此常见问题解答可以为您提供帮助。</block>
-  <block id="acb4c9a04e4760c031f72ceb892088ee" category="doc">卷缓存常见问题解答</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link"><block ref="0d6e5faf80b288a1d3277954d0b55ae8" category="inline-link-rx"></block></block>
-  <block id="6c9cda3f575fce2b59c81ac734f25c87" category="paragraph">*卷缓存 URL 是什么？*对于 URL，在浏览器中输入：<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block>访问BlueXP控制台。</block>
-  <block id="ce01fa818e0ea3677f470fba4801dc2d" category="paragraph">*您需要许可证才能使用卷缓存吗？*不需要NetApp许可证文件 (NLF)。</block>
-  <block id="03de66a3bc883d54e10eff243b71fbab" category="paragraph">*如何启用卷缓存？*卷缓存不需要任何启用。卷缓存选项会自动出现在NetApp Console左侧导航栏中。</block>
-  <block id="11b0112abbdba4f187a0d5cd55f67b6c" category="summary">卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。</block>
-  <block id="4c4d2004da2d4dab5bb560145ef937c7" category="doc">了解卷缓存</block>
   <block id="acb735bd5a7c773d33ba29a45c50737a" category="paragraph">卷缓存是ONTAP 9 软件的一项功能，它是一种远程缓存功能，可简化文件分发，通过将资源靠近用户和计算资源的位置来减少 WAN 延迟，并降低 WAN 带宽成本。卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问量大的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。</block>
-  <block id="479f19475e2dd084513dab64284eb721" category="paragraph">通过卷缓存，您可以获得云的缓存功能，特别是针对Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP和本地工作环境。</block>
   <block id="dd5ab32ff61153926563e4d2110445b6" category="paragraph">卷缓存还为分支机构提供了对公司数据集的访问。通过提供_热数据_（需要从集群中的多个控制器频繁访问的数据），您可以提高交付给关键应用程序的性能。而且，通过缓存位于世界各地多个位置的用户本地热数据，您可以通过同时访问集中数据集来增强他们的协作，同时还可以减少他们访问热数据时收到的响应时间。</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
   <block id="953ec04cfd6a17011e0166e01775e88a" category="paragraph">可以通过NetApp Console访问卷缓存。</block>
@@ -31,31 +19,21 @@
   <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">详细了解<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block>。</block>
   <block id="da693da874d690d16f540e10e65a2321" category="section-title">什么是缓存？</block>
   <block id="a6d4ceba96fb1d711128b98f2e1eaa34" category="paragraph">缓存是位于主机和数据源之间的临时存储位置。缓存的目的是存储源数据中经常访问的部分，以便以比从源获取数据更快的速度提供数据。缓存在读取密集型环境中最有用，在这种环境中数据被访问多次并由多个主机共享。缓存系统比有数据源的系统更快，这是通过更快的存储系统和缓存存储空间与主机的接近性实现的。</block>
-  <block id="1ff36319d88227573243b34cfcc88ca5" category="section-title">卷缓存的好处</block>
   <block id="e7b882d61a65174f42223c66c70096ee" category="paragraph">卷缓存具有以下优势：</block>
   <block id="ac662afad2227cc15160fd5b457146bd" category="list-text">加速混合云基础设施的性能</block>
   <block id="00ebffbe73c6303da2faaad0ab45e519" category="list-text">通过将数据从一个云提供商缓存到另一个云提供商来消除云孤岛</block>
   <block id="3539435a6de515609cc1b8543224f713" category="list-text">降低存储成本</block>
   <block id="a1b38c81c5d745e1d6ec22e5dd6e03bc" category="list-text">跨地理位置协作</block>
   <block id="c9ffd0422125f32e82a20e75ccd4fa42" category="list-text">能够更快地适应不断变化的 IT 环境</block>
-  <block id="02472e415a539d0a8886679760e38e96" category="list-text">按需或基于订阅的云中托管卷缓存</block>
-  <block id="90b267b6d1a3a176db85194015816bdf" category="section-title">使用卷缓存可以做什么</block>
   <block id="96a73f3eb476a386c0d4022fdcd79b05" category="paragraph">卷缓存可让您充分利用多种NetApp技术来实现以下目标：</block>
   <block id="b165c27356ec72ed87e0d89023b56a29" category="list-text">将数据从一个云提供商缓存到另一个云提供商</block>
   <block id="6d14d0fea89a1c59e9646774b2dce3ef" category="list-text">查看和编辑缓存导出策略</block>
   <block id="fd420f91fd55c70ed0b581da9becda92" category="list-text">调整现有缓存的大小</block>
   <block id="920c52111a4f53311c7b220606acb733" category="list-text">删除缓存</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="3d55ff142f5e56c58635f96fb60c71d0" category="paragraph">NetApp不会向您收取卷缓存费用，但您需要检查您的云提供商是否有适用的数据入口和出口费用。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">许可</block>
-  <block id="4417f17d6aeb62c4957925fd7183a07c" category="paragraph">卷缓存不需要特殊的ONTAP许可证。</block>
-  <block id="331a9d90178c830eec27205a387c2dfa" category="section-title">卷缓存的工作原理</block>
   <block id="72534499f07252c8719e630ee58c0667" category="paragraph">缓存卷是由源卷支持的稀疏填充卷。缓存卷可以与源卷位于同一集群上，也可以位于不同的集群上。</block>
   <block id="30f631144fe5bb7751ead1fe9ac7c6f5" category="paragraph">缓存卷提供对源卷中的数据的访问，而不需要所有数据都在缓存卷中。通过仅保留热数据（工作数据或最近使用的数据），可以有效地管理缓存卷中的数据存储。</block>
-  <block id="37557b8c90039bea4fa08bc67cc6b243" category="paragraph">如果缓存卷包含客户端请求的数据，则卷缓存读取请求。否则，卷缓存服务会从源卷请求数据并在满足客户端请求之前存储数据。随后的数据请求将直接从缓存卷中提供。这可以提高重复访问相同数据时的性能，因为在第一次请求之后，数据不再需要通过网络传输或由过载的系统提供服务。</block>
-  <block id="4017ec2b586cd47355d18cabf7609659" category="summary">通过访问NetApp Console中的服务开始使用卷缓存。</block>
-  <block id="152cc532030bdb299df4c0963b720fb4" category="doc">访问卷缓存</block>
-  <block id="cf073b020cede5876551f4905bc27cea" category="paragraph">您可以使用NetApp Console访问卷缓存选项。</block>
   <block id="8e917942a77709dfd28c155f42a97553" category="inline-link">了解有关登录的更多信息</block>
   <block id="acca0538f1851a14dc6ee2d63f1533a9" category="paragraph">要登录NetApp Console，您可以使用NetApp支持站点凭据。<block ref="83012c4a40bb3321733997744c83daa9" category="inline-link-rx"></block> 。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
@@ -65,13 +43,8 @@
   <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">登录控制台。</block>
   <block id="685bf0c6938aac694b7f715ca5ab7594" category="list-text">从控制台左侧导航中，选择*移动性*&gt;*卷缓存*。</block>
   <block id="e9d0563880c518332c5657bb388dc935" category="inline-image-macro">卷缓存登陆页面的图片</block>
-  <block id="575a3014ec6abcbafb4ee878f15c2659" category="paragraph">出现卷缓存仪表板。<block ref="1d5ddc4a04ccc8130b7d403f1b6e6b88" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d29462a6f3d69287d617ba8e6d5e1f25" category="inline-link-macro">设置卷缓存</block>
-  <block id="9aa0485090e68790cb76e5d3be940fcf" category="admonition">如果未设置控制台代理，则会出现选项*添加控制台代理*。请参阅<block ref="041a8dd494e8c29eb6f2a25bc2aba9af" category="inline-link-macro-rx"></block> 。</block>
-  <block id="c8af4e66767b2c892a94c205333ff750" category="summary">通过验证对您的环境、网络访问、登录和 Web 浏览器的支持来开始使用卷缓存。</block>
   <block id="783400bbca91266f6f919a9d8401a790" category="doc">卷缓存先决条件</block>
   <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">首先验证您的操作环境、登录、网络访问和 Web 浏览器是否已准备就绪。</block>
-  <block id="56df6cb020427fdcc7046462d2a74484" category="paragraph">要使用卷缓存，您应该确保您的环境满足所有要求。</block>
   <block id="9e25219bfef39dc2d94805b599244f8d" category="list-text">ONTAP 9.8 及更高版本</block>
   <block id="6bc8ee47a10f11a50d1b88f0e1669fee" category="list-text">集群管理员ONTAP权限</block>
   <block id="bb2db94d282af73e9408b243f1158770" category="list-text">集群上的集群间 LIF</block>
@@ -83,15 +56,11 @@
   <block id="c58af1fa22ce44dd1a1025cb0f4b05f2" category="list-text">应将集群添加到目标工作环境中，并使其处于开启或降级状态。</block>
   <block id="70409a142107b4016b7ef004178c29d8" category="inline-link">NetApp Console要求</block>
   <block id="bed786cbf4ab55e1445650548602862c" category="list-text">标准NetApp Console要求。参考<block ref="2fae4ce1ffb16d5bf2c9555180b86caf" category="inline-link-rx"></block>。</block>
-  <block id="fe8a9d57951a636664c54f5cf14a06e1" category="summary">只需几个步骤即可开始使用卷缓存。</block>
-  <block id="cd7075003264e6a8e9370e8f19275492" category="doc">卷缓存快速启动</block>
-  <block id="7f9fe4f52eb64124e68264f256f36881" category="paragraph">以下是开始使用卷缓存所需步骤的概述。每个步骤中的链接都会将您带到提供更多详细信息的页面。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
   <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>审查先决条件</block>
   <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">确保您的环境满足这些要求</block>
   <block id="8aa6fa53d4ea5eb2e6cf7864a0814952" category="paragraph"><block ref="6d00d645d4db26355e2a4b6e5ebcd192" category="inline-link-macro-rx"></block> 。</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
-  <block id="774adf0706578efe4197e79fc434cdf3" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>设置卷缓存</block>
   <block id="c5265a2111872d8a36af35ac9df5bd6a" category="inline-link-macro">设置卷缓存</block>
   <block id="35b195de89ecea9ff719e6aa5e3eeccf" category="paragraph"><block ref="1969983886bb9c72f05c6ce62e307cc3" category="inline-link-macro-rx"></block> 。</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
@@ -101,17 +70,12 @@
   <block id="6d8c022b864e0ac2a0521e01b0a148ef" category="list-text"><block ref="08994cd66141241fcfdbc13ed0e82eff" category="inline-link-macro-rx"></block> 。</block>
   <block id="36d2dfb130cc56d5eda3b8749b5bd6df" category="inline-link-macro">管理缓存、编辑缓存、调整缓存大小或删除缓存</block>
   <block id="7feb77d14601611c1fbc66f8aea36e7b" category="list-text"><block ref="06832ac35077da45cc1af571e236bfcd" category="inline-link-macro-rx"></block> 。</block>
-  <block id="d5478d6eec7f9909d140c5c5dc7b8049" category="inline-link-macro">监控卷缓存操作</block>
-  <block id="3a4d754d0c4ec1d71c54dc063043088b" category="list-text"><block ref="1f92bc5779f2f7dc3b853d4a9f3506c9" category="inline-link-macro-rx"></block> 。</block>
-  <block id="8272cbc57a0f666d4fb3501b0d6d1f56" category="summary">要使用卷缓存，请执行几个步骤进行设置。</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">前提条件</block>
   <block id="28afabf1cd8784eb84b3926b994169ea" category="list-text">审查<block ref="c6b48cc2d47e2f989af724d3298e55c0" category="inline-link-macro-rx"></block>以确保您的环境已准备就绪。</block>
   <block id="3847705074d8f4f4a3ad3b8e472e4a7c" category="list-text">创建控制台代理。</block>
-  <block id="6933f6b443b103ffc6df5f0c40cf6114" category="list-text">创建可以支持卷缓存的系统。</block>
   <block id="01f52dd5b9c3fcf42a482c9c21f24432" category="section-title">在NetApp Console中创建控制台代理</block>
   <block id="f7b8941f69c5e6de95c2c5651f12e340" category="paragraph">下一步是在NetApp Console中创建控制台代理。</block>
   <block id="368b569705fc2b4a6ccbd31e2dddc770" category="inline-link">如何创建控制台代理</block>
-  <block id="3a0d8363f9a5b119c844e8e4b624f5d8" category="paragraph">要在使用卷缓存之前创建控制台代理，请参阅NetApp Console文档，其中介绍了<block ref="2d846d70ffa1be89a4045faa3f83584f" category="inline-link-rx"></block>。</block>
   <block id="f46a3c01f849eec231a129ff7cb55f02" category="section-title">创建系统</block>
   <block id="2dc0e2079607a1629e0ad455c80fed71" category="paragraph">如果您还没有这样做，您需要为源和目标创建系统。</block>
   <block id="5df55e7de34e04e3fbd5d9ffd4e44939" category="inline-link">创建Amazon FSx for ONTAP系统</block>
@@ -145,7 +109,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开源</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关NetApp软件中使用的第三方版权和许可的信息。</block>
   <block id="84fa68bdcea2ad5e54b20ac851705b19" category="summary">已知限制标识了此版本服务不支持或无法与其正确互操作的平台、设备或功能。</block>
-  <block id="b0869ac252941f2bb0a66e4217373fe7" category="doc">卷缓存的已知限制</block>
   <block id="b4c367fe6d90350394d4c683b14a2b68" category="section-title">复制缓存导出策略规则的限制</block>
   <block id="dfa00fa3b7488ec5be323d610b3be4c9" category="paragraph">在以下情况下，缓存导出策略规则不会复制到缓存卷：</block>
   <block id="052790f586ecc27268f7e78d289d66ec" category="list-text">当源卷的系统是Amazon FSx for NetApp ONTAP或Cloud Volumes ONTAP，并且缓存卷是ONTAP 9.10.1 或更早版本时。</block>
@@ -161,181 +124,21 @@
   <block id="1951eec8941c43bd77fbd0a382f438c5" category="paragraph">如果源集群或目标集群具有ONTAP 9.10.1 或更早版本，并且目标集群仅启用了 CIFS 协议，则缓存创建失败。</block>
   <block id="19e9fe5f7892297d60443124d55cc602" category="paragraph">解决方法：使用运行ONTAP 9.11.1 或更高版本的目标集群，或同时配置 CIFS 和 NFS 协议的目标集群。</block>
   <block id="334fb6e3ccc3d68c66ae1be5bb08809f" category="summary">卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。</block>
-  <block id="cfd3e678741802a00293f0cccac9446c" category="doc">卷缓存的新功能</block>
-  <block id="802add3126540762ef1a9360d0a57d61" category="paragraph">了解卷缓存的新功能。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">2023年6月4日</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多种方式为BlueXP提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
-  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多种方式为BlueXP及其云服务提供支持。我们提供全天候 (24/7) 的大量免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
-  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获取云提供商文件服务的支持</block>
-  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品的BlueXP文档中的“获取帮助”。</block>
-  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">适用于ONTAP 的Amazon FSx</block>
-  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
-  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
-  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
-  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持，请使用下面描述的支持选项。</block>
-  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助选项</block>
-  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天、每天 24 小时免费提供：</block>
-  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档</block>
-  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
-  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
-  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库以查找有助于解决问题的文章。</block>
-  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
-  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区以关注正在进行的讨论或创建新的讨论。</block>
-  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持创建案例</block>
-  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外，您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
-  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">开始之前</block>
-  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">了解如何管理与BlueXP登录相关的凭据</block>
-  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">要使用“创建案例”功能，您必须首先将您的NetApp支持站点凭据与您的BlueXP登录名关联。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block> 。</block>
-  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要为具有序列号的ONTAP系统打开案例，那么您的 NSS 帐户必须与该系统的序列号相关联。</block>
-  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在BlueXP中，选择 *帮助 &gt; 支持*。</block>
-  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在“*资源*”页面上，选择“技术支持”下的可用选项之一：</block>
-  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想通过电话与某人交谈，请选择“致电我们”。您将被引导至 netapp.com 上的一个页面，其中列出了您可以拨打的电话号码。</block>
-  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">选择“创建案例”向NetApp支持专家开具一张票：</block>
-  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题相关的服务。例如， BlueXP专门针对服务中的工作流程或功能的技术支持问题。</block>
-  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储，请选择* Cloud Volumes ONTAP* 或 *On-Prem*，然后选择相关的工作环境。</block>
-  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">工作环境列表在您在服务顶部横幅中选择的BlueXP组织（或帐户）、项目（或工作区）和连接器的范围内。</block>
-  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级，可以是低、中、高或严重。</block>
-  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先事项的更多详细信息，请将鼠标悬停在字段名称旁边的信息图标上。</block>
-  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述*：提供问题的详细描述，包括任何适用的错误消息或您执行的故障排除步骤。</block>
-  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您想让其他人知道此问题，请输入其他电子邮件地址。</block>
-  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件（可选）*：一次最多上传五个附件。</block>
-  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每个附件文件大小限制为 25 MB。支持以下文件扩展名：txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx 和 csv。</block>
-  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表单的屏幕截图，可让您向NetApp支持创建案例。</block>
-  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
-  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">将会出现一个弹出窗口，其中显示您的支持案例编号。NetApp支持专家将审查您的案例并尽快回复您。</block>
-  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">要查看支持案例的历史记录，您可以选择*设置&gt;时间线*并查找名为“创建支持案例”的操作。最右边的按钮可让您展开操作以查看详细信息。</block>
-  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时，您可能会遇到以下错误消息：</block>
-  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">“您无权针对所选服务创建案例”</block>
-  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此错误可能意味着 NSS 帐户及其关联的记录公司与BlueXP帐户序列号的记录公司不是同一家（即。960xxxx）或工作环境序列号。您可以使用以下选项之一寻求帮助：</block>
-  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天</block>
-  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理您的支持案例（预览）</block>
-  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接从BlueXP查看和管理活动和已解决的支持案例。您可以管理与您的 NSS 帐户和公司相关的案例。</block>
-  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理目前可作为预览版使用。我们计划在即将发布的版本中完善这种体验并增加增强功能。请使用产品内聊天向我们发送反馈。</block>
-  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
-  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">页面顶部的案例管理仪表板提供两种视图：</block>
-  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左侧视图显示了您提供的用户 NSS 帐户在过去 3 个月内打开的案件总数。</block>
-  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右侧的视图根据您的用户 NSS 帐户显示了过去 3 个月内贵公司级别开设的案件总数。</block>
-  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表中的结果反映了与您选择的视图相关的案例。</block>
-  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列，并且可以过滤优先级和状态等列的内容。其他列仅提供排序功能。</block>
-  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">请查看以下步骤以了解更多详细信息。</block>
-  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案件级别，我们提供更新案件记录或关闭尚未关闭或待关闭状态的案件的功能。</block>
-  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">选择*案例管理*，如果出现提示，请将您的 NSS 帐户添加到BlueXP。</block>
-  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">*案例管理*页面显示与您的BlueXP用户帐户关联的 NSS 帐户相关的未结案例。这与出现在 *NSS 管理* 页面顶部的 NSS 帐户相同。</block>
-  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">（可选）修改表中显示的信息：</block>
-  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在“组织的案例”下，选择“查看”以查看与您的公司相关的所有案例。</block>
-  <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择精确的日期范围或选择不同的时间范围来修改日期范围。</block>
-  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面表格上方选项的屏幕截图，可让您选择确切的日期范围或过去 7 天、30 天或 3 个月。</block>
-  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">过滤列的内容。</block>
-  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">状态列中的过滤选项的屏幕截图，可让您过滤出符合特定状态（例如“活动”或“已关闭”）的案例。</block>
-  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表格中出现的加号图标</block>
-  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">通过选择<block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block>然后选择您想要显示的列。</block>
-  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">屏幕截图显示了您可以在表格中显示的列。</block>
-  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最后一列中出现的带有三个点的图标</block>
-  <block id="348552521b849746260fe8d296d34c15" category="list-text">通过选择管理现有案例<block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block>并选择其中一个可用选项：</block>
-  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
-  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例说明*：提供有关您的问题的更多详细信息，或选择*上传文件*以附加最多五个文件。</block>
-  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*结案*：提供有关结案原因的详细信息，然后选择*结案*。</block>
-  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图显示了选择表格最后一列的菜单后可以采取的操作。</block>
-  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门提交支持案例之前，您需要向BlueXP添加一个NetApp支持站点帐户，然后注册以获得支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
-  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">需要注册支持才能获得针对BlueXP及其存储解决方案和服务的技术支持。还需要支持注册才能启用Cloud Volumes ONTAP系统的关键工作流程。</block>
-  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">注册支持并不能使NetApp获得云提供商文件服务的支持。有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品的BlueXP文档中的“获取帮助”。</block>
-  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
-  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持权利的注册方式有两种：</block>
-  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">注册您的BlueXP帐户序列号（您的 20 位 960xxxxxxxxx 序列号位于BlueXP中的支持资源页面上）。</block>
-  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP内任何服务的单一支持订阅 ID。每个BlueXP帐户级支持订阅都必须注册。</block>
-  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在您的云提供商市场中注册与订阅相关的Cloud Volumes ONTAP序列号（这些是 20 位 909201xxxxxxxx 序列号）。</block>
-  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常被称为_PAYGO 序列号_，由BlueXP在Cloud Volumes ONTAP部署时生成。</block>
-  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">注册两种类型的序列号可以实现开立支持票和自动生成案例等功能。按照如下所述，通过将NetApp支持站点 (NSS) 帐户添加到BlueXP来完成注册。</block>
-  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">注册BlueXP以获得NetApp支持</block>
-  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">要注册支持并激活支持权利，您的BlueXP组织（或帐户）中的一名用户必须将NetApp支持站点帐户与其BlueXP登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。</block>
-  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">拥有 NSS 帐户的现有客户</block>
-  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有 NSS 帐户的NetApp客户，则只需通过BlueXP注册即可获得支持。</block>
-  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在BlueXP控制台的右上角，选择“设置”图标，然后选择“*凭据*”。</block>
-  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">选择*用户凭证*。</block>
-  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加 NSS 凭据*并按照NetApp支持站点 (NSS) 身份验证提示进行操作。</block>
-  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择“帮助”图标，然后选择“*支持*”。</block>
-  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">*资源*页面应显示您的BlueXP组织已注册以获得支持。</block>
-  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">屏幕截图显示了帐户序列号、绿色复选框和文本“已注册支持”。</block>
-  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">请注意，如果其他BlueXP用户尚未将NetApp支持站点帐户与其BlueXP登录名关联，他们将看不到相同的支持注册状态。但是，这并不意味着您的BlueXP组织没有注册支持。只要组织中的一名用户遵循了这些步骤，那么您的组织就已注册。</block>
-  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户但没有 NSS 账户</block>
-  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是现有的NetApp客户，拥有现有许可证和序列号但没有 NSS 帐户，则需要创建一个 NSS 帐户并将其与您的BlueXP登录关联。</block>
-  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp支持站点用户注册表</block>
-  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">通过完成以下操作创建NetApp支持站点帐户<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
-  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别，通常为* NetApp客户/最终用户*。</block>
-  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号 (960xxxx)。这将加快账户处理速度。</block>
-  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">完成以下步骤，将您的新 NSS 帐户与您的BlueXP登录名关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
-  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新产品</block>
-  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp新用户并且没有 NSS 帐户，请按照以下步骤操作。</block>
-  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">在BlueXP控制台的右上角，选择“帮助”图标，然后选择“*支持*”。</block>
-  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中支持是第一个选项</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户 ID 序列号。</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支持注册网站</block>
-  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>并选择*我不是注册的NetApp客户*。</block>
-  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段（带有红色星号的字段）。</block>
-  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*产品线*字段中，选择*云管理器*，然后选择适用的计费提供商。</block>
-  <block id="50a1dc01b7312307c34a888071586955" category="list-text">从上面的步骤 2 复制您的帐户序列号，完成安全检查，然后确认您已阅读 NetApp 的全球数据隐私政策。</block>
-  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">一封电子邮件会立即发送到提供的邮箱以完成此安全交易。如果几分钟内没有收到验证电子邮件，请务必检查您的垃圾邮件文件夹。</block>
-  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">从电子邮件中确认操作。</block>
-  <block id="201080500e946070a2e4873042507c77" category="paragraph">确认向NetApp提交您的请求并建议您创建NetApp支持站点帐户。</block>
-  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">请务必复制上面用于序列号字段的帐户序列号（960xxxx）。这将加快处理速度。</block>
-  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp应该在此过程中与您联系。这是针对新用户的一次性入职培训。</block>
-  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">拥有NetApp支持站点帐户后，请按照以下步骤将该帐户与您的BlueXP登录关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
-  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">关联 NSS 凭据以获得Cloud Volumes ONTAP支持</block>
-  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">需要将NetApp支持站点凭据与您的BlueXP组织关联才能为Cloud Volumes ONTAP启用以下关键工作流程：</block>
-  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">注册即用即付Cloud Volumes ONTAP系统以获得支持</block>
-  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">需要提供您的 NSS 帐户才能激活对您的系统的支持并获得对NetApp技术支持资源的访问权限。</block>
-  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自带许可证 (BYOL) 时部署Cloud Volumes ONTAP</block>
-  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">需要提供您的 NSS 帐户，以便BlueXP可以上传您的许可证密钥并启用您购买的期限的订阅。这包括期限续订的自动更新。</block>
-  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">将Cloud Volumes ONTAP软件升级到最新版本</block>
-  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将 NSS 凭证与您的BlueXP组织关联与与BlueXP用户登录关联的 NSS 帐户不同。</block>
-  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些 NSS 凭证与您的特定BlueXP组织 ID 相关联。属于BlueXP组织的用户可以从 *支持 &gt; NSS 管理* 访问这些凭据。</block>
-  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客户级帐户，则可以添加一个或多个 NSS 帐户。</block>
-  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作伙伴或经销商帐户，则可以添加一个或多个 NSS 帐户，但不能与客户级帐户一起添加。</block>
-  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">选择*NSS 管理 &gt; 添加 NSS 帐户*。</block>
-  <block id="85b9386ed443776127e099931d73448a" category="list-text">当出现提示时，选择“*继续*”以重定向到 Microsoft 登录页面。</block>
-  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用 Microsoft Entra ID 作为特定于支持和许可的身份验证服务的身份提供者。</block>
-  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面，提供您的NetApp支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
-  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">这些操作使BlueXP能够使用您的 NSS 帐户进行许可证下载、软件升级验证和未来支持注册等操作。</block>
-  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 帐户必须是客户级帐户（不是访客或临时帐户）。您可以拥有多个客户级 NSS 帐户。</block>
-  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果该帐户是合作伙伴级别帐户，则只能有一个 NSS 帐户。如果您尝试添加客户级 NSS 帐户并且合作伙伴级帐户已存在，您将收到以下错误消息：</block>
-  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">“此帐户不允许使用 NSS 客户类型，因为已经存在不同类型的 NSS 用户。”</block>
-  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级 NSS 帐户并尝试添加合作伙伴级帐户，情况也是如此。</block>
-  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后， NetApp将存储 NSS 用户名。</block>
-  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三个水平点的图标</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">这是系统生成的映射到您的电子邮件的 ID。在*NSS 管理*页面上，您可以显示来自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭证令牌，还有一个*更新凭证*选项<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
-  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项会提示您再次登录。请注意，这些帐户的令牌将在 90 天后过期。我们将发布通知来提醒您此事。</block>
-  <block id="cb949e5e30304d14de6d1ee56dcd3973" category="doc">使用卷缓存创建缓存</block>
-  <block id="c83432b66d6c3940b6259b90efd83298" category="paragraph">卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。您可以在Amazon FSx for ONTAP、 Cloud Volumes ONTAP和本地ONTAP之间创建卷缓存，并使用源系统中的一个或多个源卷作为缓存源。然后，为缓存卷选择存储虚拟机。</block>
   <block id="169359b747a97bfd7be9db6b4d0d4205" category="paragraph">缓存卷可以与源卷位于同一集群或不同的集群上。您选择缓存的卷必须属于同一个存储虚拟机，并且存储虚拟机必须使用相同的协议。</block>
   <block id="40d1cd0fd7b32697fca346c77e81cf33" category="admonition">如果卷不符合缓存条件，它们将显示为灰色，以便您无法选择它们。</block>
   <block id="84c72eda7eeb786f006b0900a7567aaa" category="paragraph">您可以输入缓存卷的大小作为源卷大小的百分比。</block>
   <block id="597e414794682881f404bfa784ae39ec" category="admonition">缓存卷使用的 IPSpace 取决于源存储虚拟机使用的 IPSpace。</block>
   <block id="517fe4990606388caa9919da8eec995a" category="paragraph">缓存卷名称使用后缀<block ref="2688da00ef40aea51d0332942162f4a3" prefix=" " category="inline-code"></block>添加到原始卷名。</block>
-  <block id="da3e6c365dbf585e680eb8b81eca08c1" category="section-title">卷缓存登录页面的步骤</block>
   <block id="83046549bdfbacafb1888d0467d8acc4" category="list-text">登录到NetApp Console。</block>
   <block id="c0e9cf3396419d44afe6a2a9716d16ce" category="list-text">从左侧导航中选择*移动性*&gt;*卷缓存*。</block>
-  <block id="d76534bd050ff0fb764f735590f47e67" category="paragraph">您将进入卷缓存仪表板页面。当您第一次启动卷缓存选项时，您需要添加缓存信息。稍后，仪表板会出现并显示有关缓存的数据。</block>
   <block id="33022033ab6ef074831b51e61f9f7279" category="inline-link">NetApp Console快速入门</block>
   <block id="612e60a0d9bf1ad494a1c96d0cfbb20b" category="admonition">如果您尚未设置NetApp Console代理，则会出现选项 *添加控制台代理*，而不是 *添加缓存*。在这种情况下，您需要首先设置控制台代理。请参阅<block ref="4af1c1682eadbae660c367784adca2e0" category="inline-link-rx"></block>。</block>
-  <block id="6eadae9a38db2a500243d05cf7225e2e" category="inline-image-macro">卷缓存的登录页面</block>
-  <block id="382f9d7006d270e738cb792422ddc921" category="paragraph"><block ref="382f9d7006d270e738cb792422ddc921" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b6818d152d5cb9dea3c8907b154bd8a8" category="list-text">选择*添加缓存*。</block>
   <block id="9a4dcefe0ee384ac688c636910b45efa" category="list-text">在缓存数据页面中，选择系统源和目标缓存，然后选择*启动缓存向导*。</block>
   <block id="9e0cbc47bdb380a02c337c21c69cdc2b" category="list-text">在配置缓存页面中，选择要缓存的一个或多个卷。</block>
@@ -363,10 +166,8 @@
   <block id="a634ad960f381760e39578135c141f12" category="paragraph"><block ref="a634ad960f381760e39578135c141f12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="666d3c7d6ea7cfc7ea6e6e6faed1cdd3" category="doc">管理缓存</block>
   <block id="fc66df463880523a60b999aff387392a" category="paragraph">您可以编辑缓存、更改导出策略、调整缓存大小以及删除缓存。</block>
-  <block id="8068c771c79b687b4eb16a0852ccf0b4" category="paragraph">利用卷缓存，您可以实现以下目标：</block>
   <block id="00ac51c16cde551605ec6cf0d3b91416" category="list-text">查看缓存详细信息。</block>
   <block id="06fc18e5e4898299f1a818098e8e94c7" category="list-text">为缓存分配不同的导出策略。</block>
-  <block id="8ba82ac05e167f153ba79532f2f1980a" category="list-text">编辑卷缓存并更改其大小等。编辑将有查看和更改其他属性的选项，并且将在即将发布的版本中添加更多属性。</block>
   <block id="b8c0701847f6b5a25da10d75bdbcba97" category="list-text">根据原始卷大小的百分比调整现有缓存的大小。</block>
   <block id="e33b91d9e0fc1cfb3b1e4c432687e47d" category="list-text">删除缓存。</block>
   <block id="eed3d8fba58a64cd23112120a6117455" category="section-title">查看缓存详细信息</block>
@@ -396,29 +197,19 @@
   <block id="782635f18c9a4c6e77f10be3b478b27a" category="list-text">选择*调整大小*。</block>
   <block id="c108e3ea3f3ec7a419ec6372a3325d79" category="list-text">输入原始卷大小的新百分比。</block>
   <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">缓存卷将调整为新的百分比。</block>
-  <block id="8d4c7677b103c84ac6a97f6e946f6380" category="paragraph">如果您不再需要缓存，您可以将其删除。这将删除卷缓存关系并删除目标卷缓存。</block>
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">选择*删除*。</block>
   <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">勾选此框。</block>
-  <block id="ee3a3db0422831681fcef5898b4dd24f" category="doc">使用卷缓存概述</block>
-  <block id="a73bc81b4418cad7550381063b8d4d32" category="paragraph">使用卷缓存，您可以实现以下目标：</block>
   <block id="086ae240dc59a72dee947da562cf17da" category="list-text"><block ref="638e664503cbc2b4d03651ad48f065e4" category="inline-link-macro-rx"></block> 。</block>
   <block id="57eaca7fde0d682a5f4bb1194791b589" category="inline-link-macro">更改导出策略并调整缓存大小</block>
   <block id="403db9049e8fc74fb1c958367db6cfab" category="list-text"><block ref="63c74ca1cdc9ec0d7fd9f52c97b2e161" category="inline-link-macro-rx"></block> 。</block>
-  <block id="158812c8336b1e3bf3dba3a26e130f17" category="list-text"><block ref="1f92bc5779f2f7dc3b853d4a9f3506c9" category="inline-link-macro-rx"></block>在NetApp Console审核页面上。</block>
   <block id="08f83993cc2b93af6175018abeb278b0" category="summary">卷缓存在远程位置提供持久的、可写的卷。您可以使用NetApp卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。</block>
-  <block id="a047d92e042b55157df7f9db9b86d574" category="doc">在审计页面上监控卷缓存作业</block>
-  <block id="33c59f81102abcd6c4195719b1b7d1d3" category="paragraph">您可以使用NetApp Console审核页面监控所有卷缓存作业并确定其进度。</block>
   <block id="da27a3a4029fc8a5d227b9d73327f99d" category="list-text">从NetApp Console菜单中，选择 *管理* &gt; *审计*。</block>
   <block id="cb7056f588b57ee15c8c6aa56fe4dd4a" category="list-text">（可选）按时间、服务、操作、代理、资源、用户或状态进行过滤。</block>
   <block id="98f385a388036a7afb371f84cd26bc12" category="list-text">探索所有缓存和操作。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">开始使用</block>
-  <block id="5afe8b22b287efe43609aa6085efd740" category="sidebar">卷缓存的新功能</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速启动</block>
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">前提条件</block>
-  <block id="32298021301a69db3766a4f82422d5f1" category="sidebar">访问卷缓存选项</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常见问题解答</block>
-  <block id="6794961c24c959bbc17a00b15f547b94" category="sidebar">使用卷缓存</block>
-  <block id="27688625d4bfcc77f4f9313d701cbb7d" category="sidebar">监控卷缓存作业</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
@@ -427,5 +218,66 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什么是新的</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">已知限制</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
-  <block id="e14044bbc0be87dcdad7e3cd36657fad" category="sidebar">NetApp卷缓存</block>
+  <block id="ceda01eac8da5dfb28789a0a2204193b" category="doc">BlueXP卷缓存</block>
+  <block id="a7fa1f89d811aff18077375f6d185a56" category="paragraph">BlueXP卷缓存是ONTAP 9 软件的一项功能，它是一种远程缓存功能，可以简化文件分发，通过将资源带到更靠近用户和计算资源的位置来减少 WAN 延迟，并降低 WAN 带宽成本。卷缓存可在远程位置提供一个持久的、可写的卷。您可以使用BlueXP卷缓存来加快数据访问速度或将流量从访问量大的卷中卸载。缓存卷非常适合读取密集型工作负载，尤其适用于客户端需要反复访问相同数据的情况。</block>
+  <block id="4b2fc04d71554e53f61c6c4001e2b287" category="paragraph">借助BlueXP卷缓存，您可以为云（特别是Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP）和本地工作环境提供缓存功能。</block>
+  <block id="033e2516825fa188c29e35e7c32156f0" category="doc">BlueXP卷缓存现已更名为卷缓存</block>
+  <block id="81f5cfd86553bef12a7f07a5e054d153" category="paragraph">BlueXP Volume Caching 已更名为 Volume Caching。</block>
+  <block id="944de674eb4a05a94f0f416e5231a567" category="doc">卷缓存常见问题解答</block>
+  <block id="f5444e55025c3b530b03c55974837eda" category="paragraph">*卷缓存 URL 是什么？*在浏览器中输入网址：<block ref="50afa4cc4e54d55b53b9cfffe1bc930c" category="inline-link-rx"></block> 访问BlueXP控制台。</block>
+  <block id="b2220f076c005c14cef060497d839343" category="paragraph">使用卷缓存需要许可证吗？不需要NetApp许可证文件 (NLF)。</block>
+  <block id="f788ef9bf8e4b88d2e7224fcf76da51b" category="paragraph">如何启用卷缓存？卷缓存无需任何启用操作。卷缓存选项会自动显示在NetApp Console左侧导航栏中。</block>
+  <block id="f5bcb165d2c026accbfd21dc4ade2dd0" category="summary">卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。</block>
+  <block id="d0ae31fc9180e97e1f7a2cfd37ce5c1c" category="doc">了解卷缓存</block>
+  <block id="3600542dac3c213aa18873f1ab9cbbc1" category="paragraph">借助卷缓存，您可以为云（特别是Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP）和本地工作环境提供缓存功能。</block>
+  <block id="7b27cc192a7f5504e91b22de62eb0223" category="section-title">卷缓存的优势</block>
+  <block id="cba47ca6cf85bb6d31a038c2c0d4cc7b" category="list-text">按需或订阅式云缓存</block>
+  <block id="e6ead7553a9bbf5d104a5199efec3a97" category="section-title">卷缓存的功能</block>
+  <block id="8ad29be52a4b9bfe0c3b8897daf5d3e7" category="paragraph">NetApp不会向您收取卷缓存费用，但您需要查看您的云提供商是否收取适用的数据流入和流出费用。</block>
+  <block id="72594b879ff0082fa0bcc13fc96bd95c" category="paragraph">卷缓存不需要特殊的ONTAP许可证。</block>
+  <block id="6596318b2186d863bd6851ede5ee91c9" category="section-title">卷缓存的工作原理</block>
+  <block id="72e2b4490e5fa25b9d294507a160d51d" category="paragraph">卷缓存会读取缓存卷中是否包含客户端请求的数据的请求。否则，卷缓存服务会从源卷请求数据，并在处理客户端请求之前存储数据。后续的数据请求将直接从缓存卷中提供。这样可以提高重复访问相同数据时的性能，因为在第一次请求之后，数据不再需要通过网络传输或从过载的系统中提供服务。</block>
+  <block id="0984bad2a8a496db79f029c55177dd85" category="summary">要开始使用卷缓存，请通过访问NetApp Console中的服务。</block>
+  <block id="522d9bd14dfc30e55cb7209adfdb8eea" category="doc">访问卷缓存</block>
+  <block id="006e769dfd8965eab4630dcb8377c3ea" category="paragraph">您可以使用NetApp Console访问卷缓存选项。</block>
+  <block id="0d9a145dab06760ec0b417a281a1268b" category="paragraph">卷缓存仪表盘随即出现。 <block ref="1d5ddc4a04ccc8130b7d403f1b6e6b88" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f0b492dd4990a6b43e64e6f06e156df2" category="inline-link-macro">设置卷缓存</block>
+  <block id="29f254ea2ccdad93198a947de47a980d" category="admonition">如果未设置控制台代理，则会出现选项*添加控制台代理*。请参阅<block ref="db7854fcc04bb3a96dcb134c52a6f446" category="inline-link-macro-rx"></block>。</block>
+  <block id="7ee2d9ffe0860e3636b0a8afa7656d0a" category="summary">要开始使用卷缓存，请先验证您的环境、网络访问、登录和 Web 浏览器是否支持。</block>
+  <block id="6be39a76555626ccc4abd6cbf047cdd4" category="paragraph">要使用卷缓存，您应该确保您的环境满足所有要求。</block>
+  <block id="2d8cece0049367991b914b6b1a3c3f95" category="summary">只需几步即可开始使用卷缓存。</block>
+  <block id="1970c0c9f9c999a61d6932701ece9ead" category="doc">卷缓存快速入门</block>
+  <block id="b3652feb277631ac5ea4ae7697ca0544" category="paragraph">以下是开始使用卷缓存所需的步骤概述。每个步骤中的链接都会带您到一个提供更多详细信息的页面。</block>
+  <block id="a2ebee079f16a4dd5be0168a3956a0c0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 设置卷缓存</block>
+  <block id="503192a68053645c73e6980f1ccb3ccb" category="inline-link-macro">监控卷缓存操作</block>
+  <block id="3edd8a9fa9947416caecc886e46fdaed" category="list-text"><block ref="a01ab11ac22ae6b95a3895f32824a3bb" category="inline-link-macro-rx"></block>。</block>
+  <block id="ada3c6bfdc22ece41e035ddca47abb5d" category="summary">要使用卷缓存，请执行以下几个步骤进行设置。</block>
+  <block id="14b492c5a59daceff1c47e1fa3ab1153" category="list-text">创建能够支持卷缓存的系统。</block>
+  <block id="3c9afdff338f9376b658201764ef0e4c" category="paragraph">在使用卷缓存之前创建控制台代理，请参阅NetApp Console文档，其中对此进行了描述。<block ref="2d846d70ffa1be89a4045faa3f83584f" category="inline-link-rx"></block>。</block>
+  <block id="0a063cd26a1bbcc09925261862a0a057" category="doc">卷缓存的已知局限性</block>
+  <block id="55faa3077ad6eac1174df58be9138964" category="doc">卷缓存的新特性</block>
+  <block id="edab0746c168cf99de3d1184db89eae9" category="paragraph">了解卷缓存的新特性。</block>
+  <block id="f5c0ab0b832c25e3ab9face45d707d33" category="paragraph">&lt;stdin&gt; 中存在未解析的指令 - include:: https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/_include/get-help.adoc []</block>
+  <block id="e8ff5d0cbb9854743021547f0190c7ab" category="paragraph">&lt;stdin&gt; 中存在未解析的指令 - include:: https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/_include/support-registration.adoc []</block>
+  <block id="2596872be52ae24ad1bcecec5ebebdf5" category="doc">使用卷缓存创建缓存</block>
+  <block id="40bffc6e5a41371152da5daf50118a7c" category="paragraph">卷缓存可在远程位置提供一个持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或将流量从访问量大的卷中卸载。缓存卷非常适合读取密集型工作负载，尤其适用于客户端需要反复访问相同数据的情况。您可以使用来自源系统的一个或多个源卷作为缓存源，在Amazon FSx for ONTAP、 Cloud Volumes ONTAP和本地ONTAP之间创建卷缓存。然后，您需要为缓存卷选择存储虚拟机。</block>
+  <block id="ab380cc6aa3b67ca5f33cf0f42933ba2" category="section-title">从卷缓存登录页面开始的步骤</block>
+  <block id="d8de82c9c43ef18d8abcf4c2453d43d6" category="paragraph">您将进入卷缓存仪表板页面。首次使用卷缓存选项时，需要添加缓存信息。随后，仪表盘出现并显示有关缓存的数据。</block>
+  <block id="c5a810d8a736a66cdafb018dde23a683" category="inline-image-macro">卷缓存的着陆页</block>
+  <block id="f246f188015d330b094ab43e4115ec92" category="paragraph"><block ref="f246f188015d330b094ab43e4115ec92" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9787efb566424fb4def39ee4a863c420" category="paragraph">使用卷缓存，您可以实现以下目标：</block>
+  <block id="affcb246f5ad24ec6b828f8924c8d053" category="list-text">编辑卷缓存并更改其大小等。编辑功能将提供查看和更改其他属性的选项，并且在即将发布的版本中，编辑功能还将添加更多属性。</block>
+  <block id="b7ccf72261654a1124ca86db25a61682" category="list-text">从NetApp Console左侧导航栏中选择“移动性”&gt;“卷缓存”。</block>
+  <block id="83c798e0c9245ebfa233ca02f0ce296c" category="paragraph">如果不再需要缓存，可以将其删除。这将删除卷缓存关系并删除目标卷缓存。</block>
+  <block id="a4728e0d5e034526a76a2bcf15fc2fb5" category="doc">使用卷缓存概览</block>
+  <block id="15e2bee7208afa4bce8f49e8622cfeb3" category="paragraph">使用卷缓存，您可以实现以下目标：</block>
+  <block id="d98e80f17411ff34bd8cefdeb4d9c9ca" category="list-text"><block ref="a01ab11ac22ae6b95a3895f32824a3bb" category="inline-link-macro-rx"></block> 在NetApp Console审核页面上。</block>
+  <block id="cdbe10615b18836cd5229608034b3885" category="doc">在“审核”页面上监控卷缓存作业</block>
+  <block id="bfa48a0000150f1a127692fcbbd95675" category="paragraph">您可以使用NetApp Console审核页面监控所有卷缓存作业并确定其进度。</block>
+  <block id="6f267103f7f652e22e0ead9f66014cd4" category="sidebar">NetApp Volume Caching</block>
+  <block id="c16fdea743f635a195afe62e710ad0e4" category="sidebar">卷缓存的新特性</block>
+  <block id="c36dbd5882b0638107e564376ac7202c" category="sidebar">访问卷缓存选项</block>
+  <block id="ddd8febf1be514ee5966f657288dabb1" category="sidebar">使用卷缓存</block>
+  <block id="cfa34b29283f7edb5353b2f0136a0382" category="sidebar">使用卷缓存概览</block>
+  <block id="aaac6bc909fa38965c87187f77135ba2" category="sidebar">监控卷缓存作业</block>
 </blocks>

@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: NetApp卷缓存
+  title: NetApp Volume Caching
   lead: 卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。
   tiles:
   - title: 开始使用
     links:
     - title: 了解卷缓存
       url: "/get-started/cache-intro.html"
-    - title: 卷缓存的新功能
+    - title: 卷缓存的新特性
       url: "/release-notes/cache-whats-new.html"
     - title: 快速启动
       url: "/get-started/cache-quick-start.html"
@@ -19,7 +19,7 @@ indexpage:
       url: "/get-started/cache-faq.html"
   - title: 使用卷缓存
     links:
-    - title: 使用卷缓存概述
+    - title: 使用卷缓存概览
       url: "/use/cache-use-overview.html"
     - title: 创建缓存
       url: "/use/cache-create.html"

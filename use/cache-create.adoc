@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/cache-create.html 
-keywords: volume caching, Volume caching 
+keywords: Volume Caching, Volume caching 
 summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。 
 ---
 = 使用卷缓存创建缓存
@@ -12,7 +12,7 @@ summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使�
 
 
 [role="lead"]
-卷缓存在远程位置提供持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。您可以在Amazon FSx for ONTAP、 Cloud Volumes ONTAP和本地ONTAP之间创建卷缓存，并使用源系统中的一个或多个源卷作为缓存源。然后，为缓存卷选择存储虚拟机。
+卷缓存可在远程位置提供一个持久的、可写的卷。您可以使用卷缓存来加快数据访问速度或将流量从访问量大的卷中卸载。缓存卷非常适合读取密集型工作负载，尤其适用于客户端需要反复访问相同数据的情况。您可以使用来自源系统的一个或多个源卷作为缓存源，在Amazon FSx for ONTAP、 Cloud Volumes ONTAP和本地ONTAP之间创建卷缓存。然后，您需要为缓存卷选择存储虚拟机。
 
 缓存卷可以与源卷位于同一集群或不同的集群上。您选择缓存的卷必须属于同一个存储虚拟机，并且存储虚拟机必须使用相同的协议。
 
@@ -28,19 +28,19 @@ NOTE: 缓存卷使用的 IPSpace 取决于源存储虚拟机使用的 IPSpace。
 
 
 
-== 卷缓存登录页面的步骤
+== 从卷缓存登录页面开始的步骤
 
 . 登录到NetApp Console。
 . 从左侧导航中选择*移动性*>*卷缓存*。
 +
-您将进入卷缓存仪表板页面。当您第一次启动卷缓存选项时，您需要添加缓存信息。稍后，仪表板会出现并显示有关缓存的数据。
+您将进入卷缓存仪表板页面。首次使用卷缓存选项时，需要添加缓存信息。随后，仪表盘出现并显示有关缓存的数据。
 
 +
 
 NOTE: 如果您尚未设置NetApp Console代理，则会出现选项 *添加控制台代理*，而不是 *添加缓存*。在这种情况下，您需要首先设置控制台代理。请参阅 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["NetApp Console快速入门"^]。
 
 +
-image:landing-page.png["卷缓存的登录页面"]
+image:landing-page.png["卷缓存的着陆页"]
 
 . 选择*添加缓存*。
 . 在缓存数据页面中，选择系统源和目标缓存，然后选择*启动缓存向导*。

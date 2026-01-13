@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-prerequisites.html 
-keywords: what are volume caching requirements, volume caching prerequisites 
-summary: 通过验证对您的环境、网络访问、登录和 Web 浏览器的支持来开始使用卷缓存。 
+keywords: what are Volume Caching requirements, Volume Caching prerequisites 
+summary: 要开始使用卷缓存，请先验证您的环境、网络访问、登录和 Web 浏览器是否支持。 
 ---
 = 卷缓存先决条件
 :hardbreaks:

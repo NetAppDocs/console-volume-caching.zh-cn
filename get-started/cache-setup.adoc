@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-setup.html 
-keywords: bluexp, volume caching, 
-summary: 要使用卷缓存，请执行几个步骤进行设置。 
+keywords: bluexp, Volume Caching, 
+summary: 要使用卷缓存，请执行以下几个步骤进行设置。 
 ---
 = 设置卷缓存
 :hardbreaks:
@@ -12,11 +12,11 @@ summary: 要使用卷缓存，请执行几个步骤进行设置。
 
 
 [role="lead"]
-要使用卷缓存，请执行几个步骤进行设置。
+要使用卷缓存，请执行以下几个步骤进行设置。
 
 * 审查link:../get-started/cache-prerequisites.html["前提条件"]以确保您的环境已准备就绪。
 * 创建控制台代理。
-* 创建可以支持卷缓存的系统。
+* 创建能够支持卷缓存的系统。
 
 
 
@@ -25,7 +25,7 @@ summary: 要使用卷缓存，请执行几个步骤进行设置。
 
 下一步是在NetApp Console中创建控制台代理。
 
-要在使用卷缓存之前创建控制台代理，请参阅NetApp Console文档，其中介绍了 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["如何创建控制台代理"^]。
+在使用卷缓存之前创建控制台代理，请参阅NetApp Console文档，其中对此进行了描述。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["如何创建控制台代理"^]。
 
 
 
