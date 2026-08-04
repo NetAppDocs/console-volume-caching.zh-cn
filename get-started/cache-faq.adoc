@@ -14,7 +14,7 @@ summary: 如果您只是想快速找到问题的答案，此常见问题解答�
 [role="lead"]
 如果您只是想快速找到问题的答案，此常见问题解答可以为您提供帮助。
 
-*卷缓存 URL 是什么？*在浏览器中输入网址： https://console.netapp.com/["https://console.netapp.com/"^] 访问BlueXP控制台。
+*什么是卷缓存 URL？*对于 URL，在浏览器中输入： https://console.netapp.com/["https://console.netapp.com/"^]以访问 NetApp Console。
 
 使用卷缓存需要许可证吗？不需要NetApp许可证文件 (NLF)。
 

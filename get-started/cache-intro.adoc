@@ -20,6 +20,7 @@ summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使�
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 可以通过NetApp Console访问卷缓存。
@@ -28,16 +29,18 @@ NetApp Console提供企业级跨本地和云环境的NetApp存储和数据服务
 
 您不需要许可证或订阅即可开始使用NetApp Console，并且只有当您需要在云中部署控制台代理以确保与存储系统或NetApp数据服务的连接时才需要付费。但是，一些可从控制台访问的NetApp数据服务是需要许可或基于订阅的。
 
-详细了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"]。
+详细了解 link:https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"]。
 
 
 
+[[what-is-a-cache]]
 == 什么是缓存？
 
 缓存是位于主机和数据源之间的临时存储位置。缓存的目的是存储源数据中经常访问的部分，以便以比从源获取数据更快的速度提供数据。缓存在读取密集型环境中最有用，在这种环境中数据被访问多次并由多个主机共享。缓存系统比有数据源的系统更快，这是通过更快的存储系统和缓存存储空间与主机的接近性实现的。
 
 
 
+[[benefits-of-volume-caching]]
 == 卷缓存的优势
 
 卷缓存具有以下优势：
@@ -52,6 +55,7 @@ NetApp Console提供企业级跨本地和云环境的NetApp存储和数据服务
 
 
 
+[[what-you-can-do-with-volume-caching]]
 == 卷缓存的功能
 
 卷缓存可让您充分利用多种NetApp技术来实现以下目标：
@@ -64,18 +68,21 @@ NetApp Console提供企业级跨本地和云环境的NetApp存储和数据服务
 
 
 
+[[cost]]
 == 成本
 
 NetApp不会向您收取卷缓存费用，但您需要查看您的云提供商是否收取适用的数据流入和流出费用。
 
 
 
+[[licensing]]
 == 许可
 
 卷缓存不需要特殊的ONTAP许可证。
 
 
 
+[[how-volume-caching-works]]
 == 卷缓存的工作原理
 
 缓存卷是由源卷支持的稀疏填充卷。缓存卷可以与源卷位于同一集群上，也可以位于不同的集群上。

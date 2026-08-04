@@ -16,6 +16,7 @@ summary: 已知限制标识了此版本服务不支持或无法与其正确互�
 
 
 
+[[limitation-in-copying-cache-export-policy-rules]]
 == 复制缓存导出策略规则的限制
 
 在以下情况下，缓存导出策略规则不会复制到缓存卷：
@@ -28,6 +29,7 @@ summary: 已知限制标识了此版本服务不支持或无法与其正确互�
 
 
 
+[[cache-creation-fails-for-storage-vms-with-same-name]]
 == 同名存储虚拟机的缓存创建失败
 
 如果源集群和目标集群使用同名的存储虚拟机，则不会创建缓存。
@@ -36,6 +38,7 @@ summary: 已知限制标识了此版本服务不支持或无法与其正确互�
 
 
 
+[[delay-in-displaying-new-or-recently-edited-export-policies]]
 == 延迟显示新的或最近编辑的出口政策
 
 创建缓存时，您可能无法在列表中看到最近创建或编辑的导出策略。
@@ -44,6 +47,7 @@ summary: 已知限制标识了此版本服务不支持或无法与其正确互�
 
 
 
+[[cache-creation-fails-when-destination-has-only-cifs-protocol-enabled]]
 == 当目标仅启用 CIFS 协议时，缓存创建失败
 
 如果源集群或目标集群具有ONTAP 9.10.1 或更早版本，并且目标集群仅启用了 CIFS 协议，则缓存创建失败。

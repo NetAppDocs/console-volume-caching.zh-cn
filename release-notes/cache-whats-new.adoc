@@ -16,10 +16,12 @@ summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使�
 
 
 
+[[06-october-2025]]
 == 2025年10月6日
 
 
 
+[[bluexp-volume-caching-is-now-volume-caching]]
 === BlueXP卷缓存现已更名为卷缓存
 
 BlueXP Volume Caching 已更名为 Volume Caching。
@@ -28,6 +30,7 @@ BlueXP Volume Caching 已更名为 Volume Caching。
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP现在是NetApp Console
 
 NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
@@ -36,10 +39,12 @@ NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内
 
 
 
+[[04-june-2023]]
 == 2023年6月4日
 
 
 
+[[bluexp-volume-caching]]
 === BlueXP卷缓存
 
 BlueXP卷缓存是ONTAP 9 软件的一项功能，它是一种远程缓存功能，可以简化文件分发，通过将资源带到更靠近用户和计算资源的位置来减少 WAN 延迟，并降低 WAN 带宽成本。卷缓存可在远程位置提供一个持久的、可写的卷。您可以使用BlueXP卷缓存来加快数据访问速度或将流量从访问量大的卷中卸载。缓存卷非常适合读取密集型工作负载，尤其适用于客户端需要反复访问相同数据的情况。

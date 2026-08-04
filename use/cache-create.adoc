@@ -28,6 +28,7 @@ NOTE: 缓存卷使用的 IPSpace 取决于源存储虚拟机使用的 IPSpace。
 
 
 
+[[steps-from-the-volume-caching-landing-page]]
 == 从卷缓存登录页面开始的步骤
 
 . 登录到NetApp Console。
@@ -72,6 +73,7 @@ TIP: 一个好的经验法则是缓存卷大小应为源卷大小的 15% 左右�
 
 
 
+[[steps-from-the-netapp-console-systems-page]]
 == NetApp Console系统页面中的步骤
 
 . 从NetApp Console系统页面中，选择工作环境。
