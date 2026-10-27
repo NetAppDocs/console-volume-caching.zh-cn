@@ -4,7 +4,7 @@ permalink: get-started/cache-login.html
 keywords: bluexp login, Volume Caching log in 
 summary: 要开始使用卷缓存，请通过访问NetApp Console中的服务。 
 ---
-= 访问卷缓存
+= 访问 NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

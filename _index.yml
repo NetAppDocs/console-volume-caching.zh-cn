@@ -19,8 +19,6 @@ indexpage:
       url: "/get-started/cache-faq.html"
   - title: 使用卷缓存
     links:
-    - title: 使用卷缓存概览
-      url: "/use/cache-use-overview.html"
     - title: 创建缓存
       url: "/use/cache-create.html"
     - title: 管理缓存

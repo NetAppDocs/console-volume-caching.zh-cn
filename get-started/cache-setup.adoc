@@ -4,7 +4,7 @@ permalink: get-started/cache-setup.html
 keywords: bluexp, Volume Caching, 
 summary: 要使用卷缓存，请执行以下几个步骤进行设置。 
 ---
-= 设置卷缓存
+= 设置 NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

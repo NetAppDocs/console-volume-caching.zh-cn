@@ -4,7 +4,7 @@ permalink: get-started/cache-quick-start.html
 keywords: how to get started with Volume Caching, Volume Caching quick start 
 summary: 只需几步即可开始使用卷缓存。 
 ---
-= 卷缓存快速入门
+= NetApp Volume Caching 快速入门
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -28,6 +28,6 @@ link:../get-started/cache-setup.html["设置卷缓存"] 。
 
 [role="quick-margin-list"]
 * link:../use/cache-create.html["创建缓存"] 。
-* link:../use/cache-use-overview.html["管理缓存、编辑缓存、调整缓存大小或删除缓存"] 。
+* link:../use/cache-manage.html["管理缓存"]。
 * link:../use/monitor-jobs.html["监控卷缓存操作"]。
 

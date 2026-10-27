@@ -4,7 +4,7 @@ permalink: use/monitor-jobs.html
 keywords: Volume Caching, NetApp Volume caching 
 summary: 卷缓存在远程位置提供持久的、可写的卷。您可以使用NetApp卷缓存来加快数据访问速度或卸载访问频繁的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。 
 ---
-= 在“审核”页面上监控卷缓存作业
+= 在“审核”页面上监控 NetApp Volume Caching 作业
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

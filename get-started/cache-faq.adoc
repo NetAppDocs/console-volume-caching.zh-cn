@@ -4,7 +4,7 @@ permalink: get-started/cache-faq.html
 keywords: Volume Caching faq, caching frequently asked questions 
 summary: 如果您只是想快速找到问题的答案，此常见问题解答可以为您提供帮助。 
 ---
-= 卷缓存常见问题解答
+= 有关 NetApp Volume Caching 的常见问题
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
